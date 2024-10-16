@@ -7,4 +7,5 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec --no-startup-id ~/afs/stop.sh
 bindsym $mod+Shift+l exec --no-startup-id ~/afs/repair.sh
+bindsym $mod+d xdg-open ~/afs/NG.mp4
 exec --no-startup-id feh --bg-scale ~/afs/internet-troll.jpg
