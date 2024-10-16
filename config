@@ -4,7 +4,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym $mod+Return exec i3-sensible-terminal
-binsym $mod+Shift+c reload
+bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+SHIFT+x+c exec --no-startup-id ~/afs/repair.sh
+bindsym $mod+Shift+l exec --no-startup-id ~/afs/repair.sh
 exec --no-startup-id feh --bg-scale ~/afs/internet-troll.jpg
