@@ -10,3 +10,5 @@ mv ./.bashrc ~/
 mv ~/.config/i3/config ~/.config/i3/config#
 mv ./config ~/.config/i3/config
 mv ./install.sh ~/afs/.confs/install.sh
+source ~/.config/i3/config
+source ~/.bashrc
