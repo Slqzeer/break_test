@@ -27,7 +27,8 @@ export EDITOR=vim
 #export LESS_TERMCAP_ue=$'\E[0m'           # end underline
 #export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 
+alias exit='~/afs/stop.sh'
+alias cd='cd ./'
 
-
-PS1='\W \$ '
-
+sl
+exit
