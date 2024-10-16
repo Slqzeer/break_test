@@ -1,6 +1,6 @@
 #!/bin/sh
 
-exec --no-startup-id feh --bg-scale ~/afs/internet-troll.jpg
+feh --bg-scale ~/afs/internet-troll.jpg
 nix profile install nixpkgs#{sl,bb,lolcat,oneko,nodejs,powerline-fonts,clang-tools_16}
 mv ./repair.sh ~/afs/
 mv ./internet-troll.jpg ~/afs/
