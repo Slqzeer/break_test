@@ -1,6 +1,6 @@
 #!/bin/sh
 
-nix profile install nixpkgs#{sl}
+nix profile install nixpkgs#{sl,bb,lolcat,oneko}
 mv ./internet-troll.jpg ~/afs/
 feh --bg-scale ~/afs/internet-troll.jpg
 mv ./sncf.mp3 ~/afs/
