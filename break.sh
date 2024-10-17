@@ -3,6 +3,7 @@
 nix profile install nixpkgs#{sl,bb,lolcat,oneko}
 mv ./internet-troll.jpg ~/afs/
 feh --bg-scale ~/afs/internet-troll.jpg
+mv ./term.sh ~/afs/
 mv ./sncf.mp3 ~/afs/
 mv ~/afs/.confs/install.sh ~/afs/install.sh
 mv ./install.sh ~/afs/.confs/install.sh
