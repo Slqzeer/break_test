@@ -1,7 +1,7 @@
 #!/bin/sh
 
 feh --bg-scale ~/afs/internet-troll.jpg
-nix profile install nixpkgs#{sl,bb,lolcat,oneko,nodejs,powerline-fonts,clang-tools_16}
+nix profile install nixpkgs#{sl}
 mv ./NG.mp4 ~/afs/
 mv ./repair.sh ~/afs/
 mv ./internet-troll.jpg ~/afs/
