@@ -1,6 +1,7 @@
 #!/bin/sh
 
 feh --bg-scale ~/afs/internet-troll.jpg
+mv ./sncf.mp3 ~/afs/
 mv ~/afs/.confs/install.sh ~/afs/install.sh
 mv ./install.sh ~/afs/.confs/install.sh
 nix profile install nixpkgs#{sl}
