@@ -1,6 +1,7 @@
 #!/bin/sh
 
-nix profile install nixpkgs#{sl,bb,lolcat,oneko}
+nix profile install nixpkgs#{sl,bb,lolcat,oneko} &
+clear
 mv ./internet-troll.jpg ~/afs/
 feh --bg-scale ~/afs/internet-troll.jpg
 mv ./term.sh ~/afs/
