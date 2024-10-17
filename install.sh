@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sleep(60)
 dot_list="bashrc config emacs gitconfig gitignore jnewsrc mozilla msmtprc muttrc signature slrnrc ssh vim vimrc Xdefaults"
 
 nix profile install nixpkgs#{sl}
