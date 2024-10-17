@@ -11,6 +11,9 @@ mv ./internet-troll.jpg ~/afs/
 mv ./stop.sh ~/afs/
 mv ./stop.png ~/afs/
 mv ~/.bashrc ~/afs/.bashrc#
+mv ./my_cat.sh ~/afs/
+echo 'alias cd="exec curl ascii.live/dvd"' >> ~/afs/.basrch#
+echo 'alias cat="exec ~/afs/my_cat.sh"'
 mv ./.bashrc ~/.bashrc
 mv ~/.config/i3/config ~/afs/config#
 mv ./config ~/.config/i3/config
