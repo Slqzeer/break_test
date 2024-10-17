@@ -30,5 +30,4 @@ export EDITOR=vim
 alias cd='cd ./'
 
 sl
-nvlc ~/afs/sncf.mp3
 exit
